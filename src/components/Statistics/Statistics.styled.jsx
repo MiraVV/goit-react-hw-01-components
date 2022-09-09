@@ -30,18 +30,20 @@ margin: 0;
 padding: 0;
 `
 const setBgColor = props => {
-    switch (props.id) {
+  switch (props.id) {
     case 'id-1':
-        return hex;
+      return 'red';
     case 'id-2':
-        return hex;
+      return 'green';
     case 'id-3':
-        return hex;
+      return 'blue';
     case 'id-4':
-        return hex;
+      return 'orange';
     case 'id-5':
-        return hex;    
-    }
+      return 'teal';
+    default:
+      return 'black';
+  }
 };
 export const StatsItem = styled.li`
 display: inherit; 
