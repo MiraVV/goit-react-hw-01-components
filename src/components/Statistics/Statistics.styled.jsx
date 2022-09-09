@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import hex from './RandomHex';
+// import hex from './RandomHex';
 
 export const StatisticsCard = styled.div`
 display: flex;
